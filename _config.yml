@@ -24,7 +24,7 @@ description: You know what to learn? Although I can't give you an answer, let's 
 url: https://kaonmir.github.io
 baseurl: ""
 repository: kaonmir/
-teaser: # "/assets/images/500x300.png"
+teaser: "/assets/images/blog-logo.png"
 logo: "/assets/images/blog-logo.png"
 masthead_title: " "
 # breadcrumbs            : false # true, false (default)
