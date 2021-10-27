@@ -12,7 +12,7 @@
 
 theme: "minimal-mistakes-jekyll"
 remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: en-US
@@ -105,7 +105,7 @@ author:
   avatar: "/assets/images/bio-photo.png"
   bio: "Still figuring out what to do for my life"
   location: "Seoul, Republic of Korea"
-  email: sonjeff@naver.com
+  # email: sonjeff@naver.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
