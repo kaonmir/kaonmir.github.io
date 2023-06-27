@@ -1,5 +1,15 @@
 baseURL = 'http://kaonmir.github.io/'
-languageCode = 'ko-kr'
+author = "Jeff Son"
+copyright = "Copyright © 2008–2019, Sunughun Son (kaonmir); all rights reserved."
+paginate = 3
+languageCode = "ko"
+DefaultContentLanguage = "ko"
+enableInlineShortcodes = true
+# prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
+# See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
+ignoreErrors = ["error-remote-getjson"]
+
+# ------------------------------
 title = 'Kaonmir Blog'
 theme = 'paper'
 
@@ -26,5 +36,54 @@ theme = 'paper'
   disableHLJS = true                        # disable highlight.js
   monoDarkIcon = true                       # show monochrome dark mode icon
   gravatarCdn = 'https://cdn.v2ex.com/gravatar/'         # e.g. 'https://cdn.v2ex.com/gravatar/'
-  graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
+  # graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
   math = true                               # enable KaTex math typesetting globally
+
+# ------------------------------
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+# ------------------------------
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
