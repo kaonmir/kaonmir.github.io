@@ -1,4 +1,4 @@
-baseURL = 'http://kaonmir.github.io/'
+baseURL = 'https://kaonmir.github.io/'
 author = "Jeff Son"
 copyright = "Copyright © 2008–2019, Sunughun Son (kaonmir); all rights reserved."
 paginate = 3
