@@ -1,7 +1,4 @@
 User-agent: *
 Disallow:
-
 Sitemap: https://kaonmir.github.io/sitemap.xml
-
-
 #DaumWebMasterTool:fc0f17e998cee1998777dc00671f9a6ea4a34e4be7398fd6e3a9277574310662:fbjYU4wshAHTHcjIRqkSNw==

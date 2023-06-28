@@ -9,13 +9,8 @@ enableInlineShortcodes = true
 # See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
 ignoreErrors = ["error-remote-getjson"]
 enableRobotsTXT = true
+googleAnalytics = "G-4ZZF9KC2DG"
 
-[sitemap]
-  changefreq = "daily"
-  filename = "sitemap.xml"
-  priority = 0.5
-
-# ------------------------------
 title = 'Kaonmir Blog'
 theme = 'paper'
 
@@ -45,8 +40,6 @@ theme = 'paper'
   graphCommentId = "kaonmir"                      # use graph comment (disqus alternative)
   math = true                                     # enable KaTex math typesetting globally
 
-# ------------------------------
-
 [menu]
 
   [[menu.main]]
@@ -62,6 +55,11 @@ series = "series"
 
 
 # ------------------------------
+
+[sitemap]
+  changefreq = "daily"
+  filename = "sitemap.xml"
+  priority = 0.5
 
 [privacy]
 
