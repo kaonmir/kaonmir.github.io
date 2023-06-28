@@ -1,11 +1,9 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-author: Sunghun Son (kaonmir)
-pin: false
-# katex: math
-keywords: ["", ""]
-cover: ""
+author: Sunghun Son
 summary: ""
+keywords: []
+tags: [""]
+pin: false
 ---
-
