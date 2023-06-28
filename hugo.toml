@@ -1,7 +1,7 @@
 baseURL = 'https://kaonmir.github.io/'
 languageCode = "ko-kr"
 title = 'Kaonmir Blog'
-theme = "github-style"
+# theme = "github-style"
 googleAnalytics = "G-4ZZF9KC2DG"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
