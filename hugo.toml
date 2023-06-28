@@ -28,7 +28,7 @@ pygmentsUseClasses = true
   [params.gitalk]
     clientID = "8cbc72e597b160c18ec3" 
     clientSecret = "89f1e9690e6e8ca52f377e8cbf2328b9154ff502" 
-    repo = "repo"
+    repo = "kaonmir.github.io"
     owner = "kaonmir"
     admin = "kaonmir"
     id = "location.pathname"
