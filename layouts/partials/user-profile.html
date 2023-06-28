@@ -104,6 +104,21 @@
           </div>
         </div>
 
+        <!-- TODO -->
+        <div class="border-top color-border-secondary pt-3 mt-3 clearfix hide-sm hide-md">
+          <h2 class="mb-2 h4">Badges</h2>
+          <div style="display:flex;justify-content:flex-start;flex-wrap:wrap;margin-bottom:3px;">
+            {{ range .Site.Data.credly.badges }}
+            <a style="margin: 0 10px 10px 0;" href="{{ .link }}">
+              <img alt="@credly" width="32" height="32" src="{{ .image }}" class="avatar">
+            </a>
+            <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="ecfd8688-5de0-4c09-8f04-678e67840f15" data-share-badge-host="https://www.credly.com"></div>
+            {{ end }}
+          </div>
+        </div>
+
+        <!-- TODO: END -->
+
         <div class="border-top color-border-secondary pt-3 mt-3 clearfix hide-sm hide-md">
           <h2 class="mb-2 h4">Organizations</h2>
           <div style="display:flex;justify-content:flex-start;flex-wrap:wrap;margin-bottom:3px;">

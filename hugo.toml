@@ -24,6 +24,7 @@ pygmentsUseClasses = true
   favicon = "/images/favicon.png"
   location = "Republic of Korea"
   enableGitalk = true
+  credlyUser = 'kaonmir'
 
   [params.gitalk]
     clientID = "8cbc72e597b160c18ec3" 
