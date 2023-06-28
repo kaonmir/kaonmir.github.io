@@ -30,7 +30,7 @@ theme = 'paper'
   # home page profile
   avatar = 'sonjeff@naver.com'                 # gravatar email or image url
   name = 'Sunghun Son (kaonmir)'
-  bio = "I'm living, loving, and learning my excellent life as a Engineer!"
+  bio = "I'm living, loving, and learning my excellent life as an Engineer!"
 
   # misc
   disableHLJS = true                        # disable highlight.js
@@ -44,14 +44,9 @@ theme = 'paper'
 [menu]
 
   [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
+    identifier = "resume"
+    name = "Resume"
+    url = "/resume/"
     weight = 10
 
 [taxonomies]
