@@ -15,4 +15,4 @@ jobs:
           REPOSITORY: kaonmir/kaonmir.github.io
           CREDLY_USER: kaonmir
           CREDLY_DIR: data/credly.json
-          BADGE_SIZE: 32
+          BADGE_SIZE: 128
