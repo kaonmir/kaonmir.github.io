@@ -104,18 +104,16 @@
           </div>
         </div>
 
-        <!-- TODO -->
         <div class="border-top color-border-secondary pt-3 mt-3 clearfix hide-sm hide-md">
           <h2 class="mb-2 h4">Badges</h2>
           <div style="display:flex;justify-content:flex-start;flex-wrap:wrap;margin-bottom:3px;">
             {{ range .Site.Data.credly.badges }}
             <a style="margin: 0 10px 10px 0;" href="{{ .href }}" data-badge-title="{{ .title }}">
-              <img alt="@credly" width="32" height="32" src="{{ .img }}" class="avatar">
+              <img alt="{{ .title }}" width="32" height="32" src="{{ .img }}" class="avatar">
             </a>
             {{ end }}
           </div>
         </div>
-        <!-- TODO: END -->
 
         <div class="border-top color-border-secondary pt-3 mt-3 clearfix hide-sm hide-md">
           <h2 class="mb-2 h4">Organizations</h2>
