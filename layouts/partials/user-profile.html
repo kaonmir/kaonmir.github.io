@@ -127,6 +127,12 @@
           </a>
           {{ end }}
 
+          {{ if .Site.Params.gitlab}}
+          <a style="margin: 0 10px 10px 0;" href="https://gitlab.com/{{ .Site.Params.gitlab }}">
+            <img alt="@gitlab" width="32" height="32" src="{{ "images/gitlab.png" | absURL }}" class="avatar">
+          </a>
+          {{ end }}
+
           {{ if .Site.Params.twitter}}
           <a style="margin: 0 10px 10px 0;" href="https://twitter.com/{{ .Site.Params.twitter }}">
             <img alt="@twitter" width="32" height="32" src="{{ "images/twitter.png" | absURL }}" class="avatar">
