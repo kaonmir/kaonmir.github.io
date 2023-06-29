@@ -174,7 +174,7 @@ body {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .Header {
     padding-left: 16px !important;
     padding-right: 16px !important;
