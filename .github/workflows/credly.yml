@@ -1,0 +1,17 @@
+name: Update badges
+
+on:
+  workflow_dispatch:
+
+jobs:
+  update-credly-data:
+    name: Update Json data with badges
+    runs-on: ubuntu-latest
+    steps:
+      - name: Credly data - Hugo
+        uses: kaonmir/credly-crawler@main
+        with:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          REPOSITORY: kaonmir/kaonmir.github.io
+          CREDLY_USER: kaonmir
+          CREDLY_DIR: data/credly.json
