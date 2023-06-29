@@ -3,7 +3,7 @@
         {
             "title": "AWS Certified DevOps Engineer \u2013 Professional",
             "href": "http://www.credly.com/badges/7b301a0f-d721-4766-993c-da41b5df4ca3",
-            "img": "https://images.credly.com/size/32x32/images/bd31ef42-d460-493e-8503-39592aaf0458/image.png"
+            "img": "https://images.credly.com/size/128x128/images/bd31ef42-d460-493e-8503-39592aaf0458/image.png"
         },
         {
             "title": "CKS: Certified Kubernetes Security Specialist",
@@ -13,17 +13,17 @@
         {
             "title": "CKA: Certified Kubernetes Administrator",
             "href": "http://www.credly.com/badges/a4d24907-cb2f-43bc-a4f1-37024428f271",
-            "img": "https://images.credly.com/size/32x32/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png"
+            "img": "https://images.credly.com/size/128x128/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png"
         },
         {
             "title": "CKAD: Certified Kubernetes Application Developer",
             "href": "http://www.credly.com/badges/3ebff1ef-cc4f-48e8-8ed3-2d255aade368",
-            "img": "https://images.credly.com/size/32x32/images/f88d800c-5261-45c6-9515-0458e31c3e16/ckad_from_cncfsite.png"
+            "img": "https://images.credly.com/size/128x128/images/f88d800c-5261-45c6-9515-0458e31c3e16/ckad_from_cncfsite.png"
         },
         {
             "title": "AWS Certified Solutions Architect \u2013 Associate",
             "href": "http://www.credly.com/badges/b71e06df-90aa-4c17-8d22-e6f70173e636",
-            "img": "https://images.credly.com/size/32x32/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
+            "img": "https://images.credly.com/size/128x128/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
         }
     ]
 }
