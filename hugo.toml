@@ -1,7 +1,7 @@
 baseURL = 'https://kaonmir.github.io/'
 languageCode = "ko-kr"
 title = 'Kaonmir Blog'
-# theme = "github-style"
+theme = "github-style"
 googleAnalytics = "G-4ZZF9KC2DG"
 pygmentsCodeFences = true
 pygmentsUseClasses = true
@@ -9,7 +9,7 @@ pygmentsUseClasses = true
 [params]
   author = 'Sunghun Son'
   description = "I'm living, loving, and learning my excellent life as an Engineer!"
-  github = 'kaonmir'                              # github.com/YOUR_GITHUB_ID
+  github = 'kaonmir' 
   # facebook = "MeiK2333"
   # twitter = "MeiK2333"
   linkedin = "kaonmir"
