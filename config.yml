@@ -19,7 +19,7 @@ params:
   url: "https://kaonmir.github.io"
   keywords: "blog, computer, programming"
   rss: true
-  lastmod: true
+  lastmod: false
   userStatusEmoji: 🥰
   favicon: /images/favicon.png
   location: Seoul, Republic of Korea
@@ -46,8 +46,3 @@ params:
   mermaid:
     theme: dark
     align: center
-frontmatter:
-  lastmod:
-    - lastmod
-    - ":fileModTime"
-    - ":default"
