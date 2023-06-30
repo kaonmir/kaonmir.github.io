@@ -6,6 +6,7 @@ summary: Credly의 배지를 가져와 깃헙 블로그에 적용하는 방법�
 keywords: ["credly", "badge", "github", "hugo", "blog"]
 tags: ["tech"]
 pin: true
+cover: /post/2023-06-29-credly-badge/blog_main.png
 ---
 
 계획을 적은 장황한 글을 제외하면 첫 번째 블로그이다. 한창 블로그 꾸미기에 열중하는 나는 깃헙 프로필처럼 내가 가진 스킬이나 자격증을 예쁘게 보여주고 싶었다. 아래 내 블로그처럼 말이다 😁

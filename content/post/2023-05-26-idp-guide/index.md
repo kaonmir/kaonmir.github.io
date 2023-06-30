@@ -5,6 +5,7 @@ author: Sunghun Son
 summary: DevOps의 시대에서 이제는 플랫폼 엔지니어링의 시대로 넘어가고 있습니다. 내부 개발자 포털(IDP)의 정의와 필요한 이유, 구성 요소에 대해서 알아봅니다. 그리고 우리는 어떻게 플랫폼 엔지니어링의 미래를 준비해야 할지를 같이 고민해봅니다.
 keywords: ["platform engineering", "internal developer portal", "IDP", "platform", "developer portal", "DX", "developer experience", "self-service"]
 tags: ["tech"]
+cover: "/post/2023-05-26-idp-guide/idp_components.png"
 pin: true
 ---
 
