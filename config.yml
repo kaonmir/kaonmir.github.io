@@ -1,0 +1,53 @@
+baseURL: "https://kaonmir.github.io/"
+languageCode: ko-kr
+title: Kaonmir Blog
+googleAnalytics: G-4ZZF9KC2DG
+pygmentsCodeFences: true
+pygmentsUseClasses: true
+params:
+  author: Sunghun Son
+  description: "I'm living, loving, and learning my excellent life as an Engineer!"
+  avatar: /images/avatar.png
+  github: kaonmir
+  gitlab: infograb-jeff
+  # facebook: MeiK2333
+  # twitter: MeiK2333
+  linkedin: kaonmir
+  instagram: sonrozana
+  # tumblr: MeiK2333
+  email: sonjeff@naver.com
+  url: "https://kaonmir.github.io"
+  keywords: "blog, computer, programming"
+  rss: true
+  lastmod: true
+  userStatusEmoji: 🥰
+  favicon: /images/favicon.png
+  location: Republic of Korea
+  enableGitalk: true
+  credlyUser: kaonmir
+
+  links:
+    # - title: Github
+    #   href: https://meik2333.com
+    #   icon: https://meik2333.com/images/avatar.png
+
+  gitalk:
+    clientID: 8cbc72e597b160c18ec3
+    clientSecret: 89f1e9690e6e8ca52f377e8cbf2328b9154ff502
+    repo: kaonmir.github.io
+    owner: kaonmir
+    admin: kaonmir
+    id: location.pathname
+    labels: gitalk
+    perPage: 15
+    pagerDirection: last
+    createIssueManually: true
+    distractionFreeMode: false
+  mermaid:
+    theme: dark
+    align: center
+frontmatter:
+  lastmod:
+    - lastmod
+    - ":fileModTime"
+    - ":default"
