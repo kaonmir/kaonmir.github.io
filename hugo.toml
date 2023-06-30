@@ -27,6 +27,10 @@ pygmentsUseClasses = true
   enableGitalk = true
   credlyUser = 'kaonmir'
 
+  [params.mermaid]
+    theme = "dark"
+    align = "center"
+
   [params.gitalk]
     clientID = "8cbc72e597b160c18ec3" 
     clientSecret = "89f1e9690e6e8ca52f377e8cbf2328b9154ff502" 
