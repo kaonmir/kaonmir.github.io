@@ -9,6 +9,7 @@ pygmentsUseClasses = true
 [params]
   author = 'Sunghun Son'
   description = "I'm living, loving, and learning my excellent life as an Engineer!"
+  avatar = "/images/avatar.png"
   github = 'kaonmir' 
   gitlab = "infograb-jeff"
   # facebook = "MeiK2333"
@@ -18,7 +19,7 @@ pygmentsUseClasses = true
   # tumblr = "MeiK2333"
   email = "sonjeff@naver.com"
   url = "https://kaonmir.github.io"
-  keywords = "blog, computer science, devops"
+  keywords = "blog, computer, programming"
   rss = true
   lastmod = true
   userStatusEmoji = "🥰"
