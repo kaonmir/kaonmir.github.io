@@ -15,7 +15,7 @@ cover: /post/2023-06-29-credly-badge/blog_main.png
 
 프로젝트는 [kaonmir/credly-crawler](https://github.com/kaonmir/credly-crawler)에서 확인할 수 있다.
 
-![Blog Main](blog_main.png)
+{{< figure src="blog_main.png" alt="Blog Main" caption="Kaonmir Blog 메인 페이지" >}}
 
 아래는 이 프로젝트를 사용해 Hugo 블로그를 개선하는 방법을 알아본다. 다른 블로그나 사이트도 JSON 파일을 가공하면 손쉽게 적용할 수 있을 것이다.
 
@@ -80,7 +80,7 @@ jobs:
 
 그러면 아래 그림처럼 배지가 잘 보여지는 것을 확인할 수 있다.
 
-![credly badges](./credly_badges.png)
+{{< figure src="./credly_badges.png" alt="Credly Badges" caption="Creldy Badges">}}
 
 ## 마치며
 
