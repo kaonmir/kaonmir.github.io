@@ -209,9 +209,9 @@ window.onscroll = function (e) {
 var style = localStorage.getItem('data-color-mode');
 iconElement = document.getElementById('github-icon');
 if (style == 'light') {
-  iconElement.src = "/images/github-light.png";
+  iconElement.src = `${window.location.origin}/images/github-light.png`;
 }
 else {
-  iconElement.src = "/images/github-dark.png";
+  iconElement.src = `${window.location.origin}/images/github-dark.png`;
 }
 </script>
