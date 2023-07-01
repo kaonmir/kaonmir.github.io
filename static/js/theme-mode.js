@@ -1,20 +1,15 @@
+function setGithubIcon(currentStyle) {
+  const iconElement = document.getElementById("github-icon");
+  if (iconElement) {
+    if (currentStyle === "light") iconElement.src = "images/github-light.png";
+    else iconElement.src = "images/github-dark.png";
+  }
+}
+
 function switchTheme() {
   const currentStyle = currentTheme();
-  const iconElement = document.getElementById("github-icon");
-
-  if (currentStyle === "light") {
-    setTheme("dark");
-    if (iconElement) {
-      iconElement.setAttribute("class", "octicon");
-      iconElement.setAttribute("color", "#f0f6fc");
-    }
-  } else {
-    setTheme("light");
-    if (iconElement) {
-      iconElement.removeAttribute("color");
-      iconElement.removeAttribute("class");
-    }
-  }
+  if (currentStyle === "light") setTheme("dark");
+  else setTheme("light");
 }
 
 function setTheme(style) {
@@ -23,6 +18,7 @@ function setTheme(style) {
   });
   document.documentElement.setAttribute("data-color-mode", style);
   localStorage.setItem("data-color-mode", style);
+  setGithubIcon(style);
 }
 
 function currentTheme() {
