@@ -16,3 +16,4 @@ jobs:
           CREDLY_USER: kaonmir
           CREDLY_DIR: data/credly.json
           BADGE_SIZE: 128
+          CREDLY_SORT: RECENT
