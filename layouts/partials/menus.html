@@ -34,7 +34,7 @@
             {{ range .Site.Sections }}
             <a
               class='UnderlineNav-item  {{ if eq .Section $currentSection.Section }}  selected {{ end }}{{ if eq .Type "tags" }} selected {{ end }}'
-              href="{{ .Site.BaseURL }}/{{ .Section }}/"
+              href="{{ .Site.BaseURL }}{{ .Section }}/"
             >
               {{ index .Site.Data.section.icons .Section | safeHTML }} {{ .Title
               }}
