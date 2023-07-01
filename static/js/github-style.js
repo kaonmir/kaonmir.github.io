@@ -266,11 +266,8 @@ function graph(year, posts, startDate, endDate) {
         case 2:
           color = "var(--color-calendar-graph-day-L2-bg)";
           break;
-        case 3:
-          color = "var(--color-calendar-graph-day-L3-bg)";
-          break;
         default:
-          color = "var(--color-calendar-graph-day-L4-bg)";
+          color = "var(--color-calendar-graph-day-L3-bg)";
       }
       html += `<rect class="day" width="11" height="11" x="${16 - i}" y="${
         j * 15

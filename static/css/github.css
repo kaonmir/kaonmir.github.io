@@ -19837,30 +19837,26 @@ summary[type="button"].btn {
 :root,
 [data-color-mode="light"] {
   --color-calendar-halloween-graph-day-L1-bg: #ffee4a;
-  --color-calendar-halloween-graph-day-L2-bg: #ffc501;
-  --color-calendar-halloween-graph-day-L3-bg: #fe9600;
-  --color-calendar-halloween-graph-day-L4-bg: #03001c;
+  --color-calendar-halloween-graph-day-L2-bg: #fe9600;
+  --color-calendar-halloween-graph-day-L3-bg: #03001c;
 }
 @media (prefers-color-scheme: light) {
   [data-color-mode="auto"] {
     --color-calendar-halloween-graph-day-L1-bg: #ffee4a;
-    --color-calendar-halloween-graph-day-L2-bg: #ffc501;
-    --color-calendar-halloween-graph-day-L3-bg: #fe9600;
-    --color-calendar-halloween-graph-day-L4-bg: #03001c;
+    --color-calendar-halloween-graph-day-L2-bg: #fe9600;
+    --color-calendar-halloween-graph-day-L3-bg: #03001c;
   }
 }
 [data-color-mode="dark"] {
   --color-calendar-halloween-graph-day-L1-bg: #631c03;
-  --color-calendar-halloween-graph-day-L2-bg: #bd561d;
-  --color-calendar-halloween-graph-day-L3-bg: #fa7a18;
-  --color-calendar-halloween-graph-day-L4-bg: #fddf68;
+  --color-calendar-halloween-graph-day-L2-bg: #fa7a18;
+  --color-calendar-halloween-graph-day-L3-bg: #fddf68;
 }
 @media (prefers-color-scheme: dark) {
   [data-color-mode="auto"] {
     --color-calendar-halloween-graph-day-L1-bg: #631c03;
-    --color-calendar-halloween-graph-day-L2-bg: #bd561d;
-    --color-calendar-halloween-graph-day-L3-bg: #fa7a18;
-    --color-calendar-halloween-graph-day-L4-bg: #fddf68;
+    --color-calendar-halloween-graph-day-L2-bg: #fa7a18;
+    --color-calendar-halloween-graph-day-L3-bg: #fddf68;
   }
 }
 :root,
