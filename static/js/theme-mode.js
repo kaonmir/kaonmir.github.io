@@ -1,8 +1,8 @@
 function setGithubIcon(currentStyle) {
   const iconElement = document.getElementById("github-icon");
   if (iconElement) {
-    if (currentStyle === "light") iconElement.src = "images/github-light.png";
-    else iconElement.src = "images/github-dark.png";
+    if (currentStyle === "light") iconElement.src = "/images/github-light.png";
+    else iconElement.src = "/images/github-dark.png";
   }
 }
 

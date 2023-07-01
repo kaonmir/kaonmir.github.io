@@ -117,7 +117,7 @@
           <div style="display:flex;justify-content:flex-start;flex-wrap:wrap;margin-bottom:3px;">
             {{ if .Site.Params.github}}
             <a style="margin: 0 10px 10px 0;" href="https://github.com/{{ .Site.Params.github }}" target="_blank">
-              <img id="github-icon" alt="@github" width="32" height="32" src="{{ "images/github-light.png" | absURL }}" class="avatar">
+              <img id="github-icon" alt="@github" width="32" height="32" src="{{ "/images/github-light.png" | absURL }}" class="avatar">
             </a>
             {{ end }}
 
@@ -209,9 +209,9 @@ window.onscroll = function (e) {
 var style = localStorage.getItem('data-color-mode');
 iconElement = document.getElementById('github-icon');
 if (style == 'light') {
-  iconElement.src = "images/github-light.png";
+  iconElement.src = "/images/github-light.png";
 }
 else {
-  iconElement.src = "images/github-dark.png";
+  iconElement.src = "/images/github-dark.png";
 }
 </script>
