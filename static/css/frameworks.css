@@ -721,7 +721,7 @@ textarea {
   --color-global-nav-input-placeholder: #959da5;
   --color-calendar-graph-day-bg: #ebedf0;
   --color-calendar-graph-day-border: rgba(27, 31, 35, 0.06);
-  --color-calendar-graph-day-L1-bg: #9be9a8;
+  --color-calendar-graph-day-L1-bg: #40c463;
   --color-calendar-graph-day-L2-bg: #30a14e;
   --color-calendar-graph-day-L3-bg: #216e39;
   --color-calendar-graph-day-L1-border: rgba(27, 31, 35, 0.06);
@@ -1369,7 +1369,7 @@ textarea {
     --color-global-nav-input-placeholder: #959da5;
     --color-calendar-graph-day-bg: #ebedf0;
     --color-calendar-graph-day-border: rgba(27, 31, 35, 0.06);
-    --color-calendar-graph-day-L1-bg: #9be9a8;
+    --color-calendar-graph-day-L1-bg: #40c463;
     --color-calendar-graph-day-L2-bg: #30a14e;
     --color-calendar-graph-day-L3-bg: #216e39;
     --color-calendar-graph-day-L1-border: rgba(27, 31, 35, 0.06);
@@ -10185,7 +10185,7 @@ a.tabnav-extra:hover {
   --color-global-nav-input-placeholder: #484f58;
   --color-calendar-graph-day-bg: #161b22;
   --color-calendar-graph-day-border: rgba(27, 31, 35, 0.06);
-  --color-calendar-graph-day-L1-bg: #01311f;
+  --color-calendar-graph-day-L1-bg: #034525;
   --color-calendar-graph-day-L2-bg: #0f6d31;
   --color-calendar-graph-day-L3-bg: #00c647;
   --color-calendar-graph-day-L1-border: rgba(27, 31, 35, 0.06);
@@ -10833,7 +10833,7 @@ a.tabnav-extra:hover {
     --color-global-nav-input-placeholder: #484f58;
     --color-calendar-graph-day-bg: #161b22;
     --color-calendar-graph-day-border: rgba(27, 31, 35, 0.06);
-    --color-calendar-graph-day-L1-bg: #01311f;
+    --color-calendar-graph-day-L1-bg: #034525;
     --color-calendar-graph-day-L2-bg: #0f6d31;
     --color-calendar-graph-day-L3-bg: #00c647;
     --color-calendar-graph-day-L1-border: rgba(27, 31, 35, 0.06);
