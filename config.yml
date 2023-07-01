@@ -2,11 +2,13 @@ baseURL: "https://kaonmir.github.io/"
 languageCode: ko-kr
 title: Kaonmir Blog
 googleAnalytics: G-4ZZF9KC2DG
+copyright: |
+  &copy; 2023 Kaonmir. All rights reserved.
 pygmentsCodeFences: true
 pygmentsUseClasses: true
 params:
   author: Sunghun Son
-  description: "I'm living, loving, and learning my excellent life as an Engineer!"
+  description: I'm living, loving, and learning my excellent life as an Engineer!
   avatar: /images/avatar.png
   github: kaonmir
   gitlab: infograb-jeff
