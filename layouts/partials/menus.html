@@ -34,9 +34,10 @@
             {{ range .Site.Sections }}
             <a
               class='UnderlineNav-item  {{ if eq .CurrentSection $currentSection }}  selected {{ end }}{{ if eq .Type "tags" }} selected {{ end }}'
-              href="{{ .Site.BaseURL }}/{{ .Path }}/"
+              href="{{ .Site.BaseURL }}/{{ .Section }}/"
             >
-              {{ index .Site.Data.section.icons .Path | safeHTML }} {{ .Title }}
+              {{ index .Site.Data.section.icons .Section | safeHTML }} {{ .Title
+              }}
               <span class="Counter">{{ len .Pages }}</span>
             </a>
             {{ end }}
