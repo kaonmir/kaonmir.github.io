@@ -332,6 +332,29 @@ function hideTip() {
   svgElem.style.display = "none";
 }
 
+let badgeElem = document.createElement("div");
+badgeElem.style.cssText = "pointer-events: none; display: none;";
+badgeElem.classList.add(...["badge-tip", "badge-tip-one-line"]);
+document.body.appendChild(badgeElem);
+
+function badgeTip(elem, title) {
+  if (window.screen.width < 768) return;
+
+  const rect = getCoords(elem);
+  badgeElem.innerHTML = `<strong>${title}</strong>`;
+
+  badgeElem.style.display = "block";
+  const tipRect = badgeElem.getBoundingClientRect();
+  badgeElem.style.top = `${rect.top - 50}px`;
+  badgeElem.style.left = `${
+    rect.left - tipRect.width * 0.1 + rect.width / 2
+  }px`;
+}
+
+function hideBadgeTip() {
+  badgeElem.style.display = "none";
+}
+
 function getCoords(elem) {
   const box = elem.getBoundingClientRect();
 
