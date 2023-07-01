@@ -20,7 +20,7 @@ params:
   keywords: "blog, computer, programming"
   rss: true
   lastmod: false
-  userStatusEmoji: 🥰
+  # userStatusEmoji: 🤔
   favicon: /images/favicon.png
   location: Seoul, Republic of Korea
   enableGitalk: true
