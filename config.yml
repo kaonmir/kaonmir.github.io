@@ -2,8 +2,7 @@ baseURL: "https://kaonmir.github.io/"
 languageCode: ko-kr
 title: Kaonmir Blog
 googleAnalytics: G-4ZZF9KC2DG
-copyright: |
-  &copy; 2023 Kaonmir. All rights reserved.
+copyright: "&copy; 2023 Sunghun Son. All Rights Reserved."
 pygmentsCodeFences: true
 pygmentsUseClasses: true
 params:
@@ -32,6 +31,23 @@ params:
     # - title: Github
     #   href: https://meik2333.com
     #   icon: https://meik2333.com/images/avatar.png
+
+  experiences:
+    - title: DevOps Engineer
+      company: Infograb
+      date_start: "22.10"
+      date_end: pres.
+    #   href: /experiences/infograb
+    # - title: Freelencer
+    #   company: NEMO Inc.
+    #   date_start: "22.03"
+    #   date_end: "22.06"
+    # href: /experiences/cau
+    - title: Bachelor of Software
+      company: Chung-Ang University
+      date_start: "18.03"
+      date_end: "24.02"
+      # href: /experiences/cau
 
   gitalk:
     clientID: 8cbc72e597b160c18ec3

@@ -184,6 +184,30 @@
             {{ end }}
           </div>
         </div>
+
+        {{ if .Site.Params.experiences }}
+        <div class="border-top color-border-secondary pt-3 mt-3 clearfix hide-sm hide-md">
+          <h2 class="mb-2 h4">Expreience</h2>
+          {{ range .Site.Params.experiences }}
+            <div class="mb-1" style="display:flex;justify-content:flex-start;flex-wrap:wrap;flex-direction: column;">
+              <div style="display:flex;justify-content:space-between;flex-wrap:wrap;">
+                <a {{ with .href }} href="{{ .href }}" {{ end }} 
+                    style="cursor: pointer;" 
+                    onclick="alert('Not implemented yet')" 
+                >
+                  <div style="margin: 0 10px 0px 0;"> {{ .title }} </div>
+                </a>
+                <div class="text-gray text-small d-block" style="text-align: right; flex: 1 0">
+                  {{ .date_start }}-{{ .date_end }}
+                </div>
+              </div>
+              <div style="display:flex;justify-content:flex-start;flex-wrap:wrap;margin-bottom:3px;">
+                {{ .company }}
+              </div>
+            </div>
+          {{ end }}
+        </div>
+        {{ end }}
       </div>
     </div>
 
