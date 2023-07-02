@@ -1,0 +1,10 @@
+<figure class="d-flex mx-0 flex-wrap">
+  {{ $width := index .Params 0 }}
+  {{ range $index, $val := .Params }}
+    {{ if ne $index 0 }}
+      <div class="mx-2">
+        <img src="{{ $val }}" alt="{{ $val }}" width="{{ $width }}" />
+      </div>
+    {{ end }}
+  {{ end }}
+</figure>
