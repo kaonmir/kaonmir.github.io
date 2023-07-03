@@ -1,6 +1,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
+  {{ if (.Params.mermaid) }} {{ partial "mermaid.html" }} {{ end }}
   <script
     type="application/javascript"
     src='{{ "js/theme-mode.js" | absURL }}'

@@ -1201,6 +1201,7 @@ a.branch-name .octicon {
 }
 .markdown-body li > p {
   margin-top: 16px;
+  margin-bottom: 0.5em;
 }
 .markdown-body li + li {
   margin-top: 0.25em;

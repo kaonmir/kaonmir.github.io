@@ -33,5 +33,7 @@ function currentTheme() {
 }
 
 (() => {
-  setTheme(currentTheme());
+  const style = currentTheme();
+  setTheme(style);
+  initMermaid(style);
 })();
