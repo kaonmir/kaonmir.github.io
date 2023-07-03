@@ -5,7 +5,7 @@ author: Sunghun Son
 summary: "7년 남짓한 세월동안 글을 적었지만 제대로된 블로그를 운영한 적은 없다. 이번에는 계획과 목표를 세우고 시작해보려 한다."
 keywords: ["blog", "writing", "plan", "goal"]
 tags: ["시작"]
-pin: true
+pin: false
 ---
 
 ## 왜 지금에 와서야 블로그를 만들었는지?
