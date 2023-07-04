@@ -1,11 +1,11 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width" />
-  {{ if (.Params.mermaid) }} {{ partial "mermaid.html" }} {{ end }}
   <script
     type="application/javascript"
     src='{{ "js/theme-mode.js" | absURL }}'
   ></script>
+  {{ if (.Params.mermaid) }} {{ partial "mermaid.html" }} {{ end }}
   <link rel="stylesheet" href='{{ "css/frameworks.css" | absURL }}' />
   <link rel="stylesheet" href='{{ "css/github.css" | absURL }}' />
   <link rel="stylesheet" href='{{ "css/github-style.css" | absURL }}' />
