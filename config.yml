@@ -33,21 +33,20 @@ params:
     #   icon: https://meik2333.com/images/avatar.png
 
   experiences:
-    - title: DevOps Engineer
+    - position: DevOps Engineer
       company: InfoGrab LC.
-      date_start: "22.10"
-      date_end: pres.
-    #   href: /experiences/infograb
-    # - title: Freelencer
-    #   company: NEMO Inc.
-    #   date_start: "22.03"
-    #   date_end: "22.06"
-    # href: /experiences/cau
-    - title: B.E. Computer Science
+      company_url: https://insight.infograb.io
+      duration: 2022.10 ~ present
+      short_duration: 22.10 ~ pres.
+      markdown: /experience/infograb/_index.md
+      logo: /experience/infograb/logo.png
+    - position: B.E. Computer Science
       company: Chung-Ang University
-      date_start: "18.03"
-      date_end: "24.02"
-      # href: /experiences/cau
+      company_url: https://cau.ac.kr
+      duration: 2018.03 ~ 2024.02
+      short_duration: 18.03 ~ 24.02
+      markdown: /experience/cau/_index.md
+      logo: /experience/cau/logo.png
 
   # presentations:
   #   - title: APAC Tech Manager Demo.

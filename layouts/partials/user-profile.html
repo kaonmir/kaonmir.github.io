@@ -1,4 +1,6 @@
 {{ partial "menus.html" . }}
+{{ partial "experience.html" . }}
+
 <div class="container-xl px-3 px-md-4 px-lg-5">
   <div class="gutter-condensed gutter-lg flex-column flex-md-row d-flex">
     <div class="flex-shrink-0 col-12 col-md-3 mb-4 mb-md-0">
@@ -191,14 +193,15 @@
           {{ range .Site.Params.experiences }}
             <div class="mb-2 d-flex flex-wrap flex-column">
               <div class="d-flex flex-wrap flex-justify-between">
-                <a {{ with .href }} href="{{ .href }}" {{ end }} 
+                <a data-path="{{ .markdown }}"
+                {{ with .href }} href="{{ .href }}" {{ end }} 
                     style="cursor: pointer;" 
-                    onclick="alert('Not implemented yet')" 
+                    onclick="showPopup(this)" 
                 >
-                  <div class="flex-1 mr-2"> {{ .title }} </div>
+                  <div class="flex-1 mr-2"> {{ .position }} </div>
                 </a>
                 <div class="text-gray text-small d-block">
-                  {{ .date_start }}-{{ .date_end }}
+                  {{ .short_duration }}
                 </div>
               </div>
               <div>
