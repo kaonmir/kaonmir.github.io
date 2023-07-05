@@ -35,14 +35,14 @@ params:
   experiences:
     - position: DevOps Engineer
       company: InfoGrab LC.
-      company_url: https://insight.infograb.io
+      company_url: https://insight.infograb.net/
       duration: 2022.10 ~ present
       short_duration: 22.10 ~ pres.
       markdown: /experience/infograb/_index.md
       logo: /experience/infograb/logo.png
     - position: B.E. Computer Science
       company: Chung-Ang University
-      company_url: https://cau.ac.kr
+      company_url: https://www.cau.ac.kr
       duration: 2018.03 ~ 2024.02
       short_duration: 18.03 ~ 24.02
       markdown: /experience/cau/_index.md
