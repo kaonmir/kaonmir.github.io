@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 ### Skills
 
 {{< logos "30px"
