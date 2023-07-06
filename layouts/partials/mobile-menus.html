@@ -24,14 +24,17 @@
       </svg>
       Overview
     </a>
-    {{ range .Site.Sections }}
-    <a
-      class='UnderlineNav-item  {{ if eq .Section $currentSection.Section }}  selected {{ end }}{{ if eq .Type "tags" }} selected {{ end }}'
-      href="{{ .Site.BaseURL }}{{ .Section }}/"
-    >
-      {{ index .Site.Data.section.icons .Section | safeHTML }} {{ .Title }}
-      <span class="Counter">{{ len .Pages }}</span>
-    </a>
-    {{ end }}
+    {{ range $index, $section := .Site.Sections }}
+    {{ if or (not (isset .Params "hidden")) (eq (index .Params "hidden") false) }}
+      <a
+        class='UnderlineNav-item  {{ if eq $section.Section $currentSection.Section }} selected {{ end }}{{ if eq .Type "tags" }} selected {{ end }}'
+        href="{{ $.Site.BaseURL }}{{ $section.Section }}/"
+      >
+        {{ index $.Site.Data.section.icons $section.Section | safeHTML }}
+        {{ .Title }}
+        <span class="Counter"> {{ len .Pages }} </span>
+      </a>
+    {{ end }} 
+  {{ end }}
   </nav>
 </div>
