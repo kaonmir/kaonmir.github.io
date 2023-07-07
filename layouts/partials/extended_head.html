@@ -89,3 +89,7 @@
   }
 </script>
 {{ end }} {{ end }}
+
+{{ if .Params.math }}
+  {{ partial "helpers/katex.html" . }}
+{{ end }}
