@@ -13,8 +13,8 @@ params:
   gitlab: infograb-jeff
   # facebook: MeiK2333
   # twitter: MeiK2333
-  linkedin: kaonmir
-  instagram: sonrozana
+  # linkedin: kaonmir
+  # instagram: sonrozana
   # tumblr: MeiK2333
   email: sonjeff@naver.com
   url: "https://kaonmir.github.io"
@@ -31,6 +31,9 @@ params:
     # - title: Github
     #   href: https://meik2333.com
     #   icon: https://meik2333.com/images/avatar.png
+    - title: AUSG
+      href: https://github.com/AUSG
+      icon: https://avatars.githubusercontent.com/u/40321838?s=200&v=4
 
   experiences:
     - position: DevOps Engineer
