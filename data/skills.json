@@ -1,0 +1,32 @@
+{
+  "skills": [
+    {
+      "title": "Amazon Web Services",
+      "img": "/images/aws.png"
+    },
+    {
+      "title": "GitLab",
+      "img": "/images/gitlab.png"
+    },
+    {
+      "title": "Go",
+      "img": "/images/go.png"
+    },
+    {
+      "title": "Kubernetes",
+      "img": "/images/kubernetes.png"
+    },
+    {
+      "title": "NestJS",
+      "img": "/images/nestjs.png"
+    },
+    {
+      "title": "Terraform",
+      "img": "/images/terraform.png"
+    },
+    {
+      "title": "Figma",
+      "img": "/images/figma.png"
+    }
+  ]
+}

@@ -115,6 +115,18 @@
         </div>
 
         <div class="border-top color-border-secondary pt-3 mt-3 clearfix hide-sm hide-md">
+          <h2 class="mb-2 h4">Skills</h2>
+          <div style="display:flex;justify-content:flex-start;flex-wrap:wrap;margin-bottom:3px;">
+            {{ range $.Site.Data.skills.skills }}
+            <a style="margin: 0 10px 10px 0;" data-skill-title="{{ .title }}" target="_blank"
+               onmouseover="badgeTip(this, {{ .title }})" onmouseleave="hideBadgeTip()">
+               <img alt="{{ .title }}" width="32" height="32" src="{{ .img }}" class="avatar">
+            </a>
+            {{ end }}
+          </div>
+        </div>
+
+        <div class="border-top color-border-secondary pt-3 mt-3 clearfix hide-sm hide-md">
           <h2 class="mb-2 h4">Organizations</h2>
           <div style="display:flex;justify-content:flex-start;flex-wrap:wrap;margin-bottom:3px;">
             {{ if .Site.Params.github}}
@@ -125,7 +137,7 @@
 
             {{ if .Site.Params.gitlab}}
             <a style="margin: 0 10px 10px 0;" href="https://gitlab.com/{{ .Site.Params.gitlab }}" target="_blank">
-              <img alt="@gitlab" width="32" height="32" src="{{ "images/gitlab.png" | absURL }}" class="avatar">
+              <img alt="@gitlab" width="32" height="32" src="{{ "images/gitlab-org.png" | absURL }}" class="avatar">
             </a>
             {{ end }}
 
@@ -224,6 +236,7 @@
     </div>
   </div>
 </div>
+
 <script>
 window.onscroll = function (e) {
   const headerImg = document.querySelector('#headerImg');
