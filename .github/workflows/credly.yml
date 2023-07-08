@@ -14,6 +14,6 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           REPOSITORY: kaonmir/kaonmir.github.io
           CREDLY_USER: kaonmir
-          CREDLY_DIR: data/credly.json
+          CREDLY_DIR: data/badges/credly.json
           BADGE_SIZE: 128
           CREDLY_SORT: RECENT
