@@ -93,3 +93,7 @@
 {{ if .Params.math }}
   {{ partial "helpers/katex.html" . }}
 {{ end }}
+
+{{ if .Params.mermaid }}
+  {{ partial "helpers/mermaid.html" }}
+{{ end }}

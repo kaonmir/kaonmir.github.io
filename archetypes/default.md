@@ -6,4 +6,6 @@ summary: ""
 keywords: []
 tags: [""]
 pin: false
+mermaid: false
+math: false
 ---
