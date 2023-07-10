@@ -26,14 +26,12 @@ math: false
 
 ## 프로젝트 아키텍처
 
-![Architecture](./architecture.png)
+![image-20230710224340731](./architecture.png)
 
 만약 3-tier architecture가 필요하게 된다면 위 그림처럼 구성할 것입니다.
 
 - [Semantic UI](https://semantic-ui.com/) : 적당히 반쯤 만들어진 UI를 가져다 쓸 것입니다. 이쁘게 꾸미는 건 제 역할이 아닙니다 :)
-- [Apollo Client](https://www.apollographql.com/docs/react/) : GraphQL을 호출하고 캐싱하는 도구입니다.
 - [Nestia](https://github.com/samchon/nestia) : NestJS의 API를 SDK로 만들어서 프론트엔드 개발을 완전 편리하게 만드는 라이브러리입니다.
-
 - [Prisma](https://www.prisma.io/) : 데이터베이스를 형상 관리하며, 테이블(Model)을 호출하는 SQL을 SDK로 만들어서 백엔드 개발을 완전 편리하게 만드는 라이브러리입니다.
 
 Nestia와 Prisma 모두 컴파일 단에서 모든 에러를 잡고 단순 문자열 오타로 인해 발생하는 치명적인 문제를 막을 수 있습니다. 타입스크립트 하나로 모든 코드는 구성됩니다. 그리고 모노리포로 프론트엔드와 백엔드는 연결됩니다. 그래야 Nestia SDK를 효율적으로 쓸 수 있어요.
