@@ -22,7 +22,7 @@ params:
   rss: true
   lastmod: false
   # userStatusEmoji: 🤔
-  favicon: /images/favicon.png
+  favicon: /images/favicon.ico
   location: Seoul, Republic of Korea
   enableGitalk: true
   credlyUser: kaonmir
