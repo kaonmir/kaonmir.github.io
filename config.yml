@@ -1,4 +1,4 @@
-baseURL: "https://kaonmir.github.io/"
+baseURL: "https://blog.kaonmir.com/"
 languageCode: ko-kr
 title: Kaonmir Blog
 googleAnalytics: G-4ZZF9KC2DG
@@ -17,7 +17,7 @@ params:
   # instagram: sonrozana
   # tumblr: MeiK2333
   email: sonjeff@naver.com
-  url: "https://kaonmir.github.io"
+  url: "https://blog.kaonmir.com"
   keywords: "blog, computer, programming"
   rss: true
   lastmod: false
@@ -59,7 +59,7 @@ params:
   gitalk:
     clientID: 8cbc72e597b160c18ec3
     clientSecret: 89f1e9690e6e8ca52f377e8cbf2328b9154ff502
-    repo: kaonmir.github.io
+    repo: blog.kaonmir.com
     owner: kaonmir
     admin: kaonmir
     id: location.pathname
