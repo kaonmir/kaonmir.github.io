@@ -29,7 +29,7 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Upload pages artifact
+      - name: Upload pages artifact@v4
         uses: actions/upload-pages-artifact
         with:
           path: "public/"
