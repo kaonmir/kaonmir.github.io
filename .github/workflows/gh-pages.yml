@@ -29,8 +29,8 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Upload pages artifact@v4
-        uses: actions/upload-pages-artifact
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v4
         with:
           path: "public/"
 
